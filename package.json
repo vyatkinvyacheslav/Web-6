@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "chrome": "cypress run --browser chrome --headed --config-file cypress_2.config.js",
+    "chrome": "cypress run --browser chrome --headless --config-file cypress_2.config.js",
+    "electron": "cypress run --browser electron --headed --config-file cypress_2.config.js",
+    "electron": "cypress run --browser electron --headless --config-file cypress_2.config.js"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
